@@ -1,54 +1,54 @@
-# TinderBot: Ваш персональный AI-помощник
+# TinderBot: Your Personal AI Assistant
 
-Добро пожаловать в **TinderBot** — бот на Python, который совмещает удобство *Telegram*, мощь *ChatGPT* и веселье *Tinder*. С помощью TinderBot вы можете создать привлекательный профиль в Tinder, генерировать интересные сообщения для знакомств и даже вести переписку от вашего имени.
+Welcome to **TinderBot** — a Python bot that combines the convenience of *Telegram*, the power of *ChatGPT*, and the fun of *Tinder*. With TinderBot, you can create an attractive Tinder profile, generate interesting messages for dating, and even chat on your behalf.
 
-## Чатбот умеет:
-1. Генерировать Tinder-профиль по вашему описанию
-2. Писать интересные и интригующие сообщения для знакомства
-3. Вести переписку от вашего имени
-4. Тренироваться в переписках с чат-ботом
+## The Chatbot Can:
+1. Generate a Tinder profile based on your description
+2. Write interesting and intriguing messages for dating
+3. Chat on your behalf
+4. Practice conversations with the chatbot
 
-## Полезные команды и ссылки:
-1. `/start` — главное меню бота
-2. `/profile` — генерация Tinder-профиля
-3. `/opener` — сообщение для знакомства
-4. `/message` — переписка от вашего имени
-5. `/date` — переписка со звездами
-6. `/gpt` — задать вопрос чату GPT
+## Useful Commands and Links:
+1. `/start` — main menu of the bot
+2. `/profile` — generate a Tinder profile
+3. `/opener` — opening message for dating
+4. `/message` — chat on your behalf
+5. `/date` — chat with celebrities
+6. `/gpt` — ask a question to the GPT chat
 
-### Установка и запуск
+### Installation and Launch
 
-1. **Клонируйте репозиторий:**
+1. **Clone the repository:**
     ```bash
     git clone https://github.com/ezulex/TinderBolt.git
     ```
 
-2. **Создайте виртуальное окружение и активируйте его:**
+2. **Create and activate a virtual environment:**
     ```bash
     python -m venv venv
-    source venv/bin/activate  # для Linux/Mac
-    venv\Scripts\activate  # для Windows
+    source venv/bin/activate  # For Linux/Mac
+    venv\Scripts\activate  # For Windows
     ```
 
-3. **Установите необходимые зависимости:**
+3. **Install the necessary dependencies:**
     ```bash
     pip install -r requirements.txt
     ```
 
-4. **Создайте файл `.env` с вашими переменными окружения:**
+4. **Create a `.env` file with your environment variables:**
     ```env
-    TG_TOKEN="ваш_telegram_api_key"
-    CHATGPT_TOKEN="ваш_openai_api_key"
+    TG_TOKEN="your_telegram_api_key"
+    CHATGPT_TOKEN="your_openai_api_key"
     ```
 
-5. **Запустите бота:**
+5. **Launch the bot:**
     ```bash
     python main.py
     ```
 
-### Как пользоваться ботом
+### How to Use the Bot
 
-После запуска бота введите в Telegram команду `/start`, чтобы открыть главное меню. Далее, используйте команды, чтобы генерировать профиль, создавать сообщения и вести переписку. Наслаждайтесь общением и пусть TinderBot поможет вам найти свою половинку!
+After launching the bot, enter the `/start` command in Telegram to open the main menu. Then, use the commands to generate a profile, create messages, and chat. Enjoy the communication and let TinderBot help you find your match!
 
 ---
-Проект создан в процессе JavaRush Марафона, подробнее по [ссылке](https://javarush.com/groups/python-marathon).
+This project was created during the JavaRush Marathon. Learn more at [this link](https://javarush.com/groups/python-marathon).
